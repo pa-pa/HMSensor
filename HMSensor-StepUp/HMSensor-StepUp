@@ -1,0 +1,13 @@
+Qty,partname,description,lib
+0,"ATMEGA168A-A","TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM","atmel"
+0,"Battery","","device"
+0,"C","Unpolarized capacitor","device"
+0,"CC1101","","cc1101"
+0,"CONN_01X01","Connector 01x01","conn"
+0,"CONN_01X04","Connector 01x04","conn"
+0,"CONN_01X05","Connector 01x05","conn"
+0,"CONN_01X06","Connector 01x06","conn"
+0,"Crystal_Small","Two pin crystal","device"
+0,"LED","","device"
+0,"R","Resistor","device"
+0,"SW_PUSH","Button","device"

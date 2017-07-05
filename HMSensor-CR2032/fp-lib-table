@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ab2_power)(type KiCad)(uri C:\Users\holger\kicad\ab2tech\KiCad\modules\ab2_power.pretty)(options "")(descr ""))
+)

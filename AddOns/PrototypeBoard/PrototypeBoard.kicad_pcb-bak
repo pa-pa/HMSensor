@@ -1,0 +1,1288 @@
+(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+
+  (general
+    (links 0)
+    (no_connects 0)
+    (area 115.534999 107.035 163.865001 142.175)
+    (thickness 1.6)
+    (drawings 7)
+    (tracks 0)
+    (zones 0)
+    (modules 90)
+    (nets 1)
+  )
+
+  (page A4)
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 0.25)
+    (trace_clearance 0.2)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.2)
+    (segment_width 0.2)
+    (edge_width 0.15)
+    (via_size 0.6)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.15)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.7 1.7)
+    (pad_drill 1)
+    (pad_to_mask_clearance 0.2)
+    (aux_axis_origin 0 0)
+    (visible_elements 7FFCFFFF)
+    (pcbplotparams
+      (layerselection 0x010f0_80000001)
+      (usegerberextensions false)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15)
+      (hpglpenoverlay 2)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 0)
+      (scaleselection 1)
+      (outputdirectory gerber))
+  )
+
+  (net 0 "")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.25)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CD33)
+    (at 148.59 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111311 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CD2E)
+    (at 146.05 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111311 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CD2A)
+    (at 148.59 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111311 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CD25)
+    (at 146.05 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111311 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 5953C285) (tstamp 5953CC97)
+    (at 132 138)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 5953C274) (tstamp 5953CCA4)
+    (at 139.7 134.62)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC52)
+    (at 130.81 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111812 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC4E)
+    (at 133.35 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111712 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC4A)
+    (at 135.89 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111612 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC46)
+    (at 138.43 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111512 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC42)
+    (at 140.97 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111412 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC3E)
+    (at 143.51 110.49)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111312 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC32)
+    (at 130.81 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111811 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC2E)
+    (at 133.35 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111711 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC2A)
+    (at 135.89 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111611 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC26)
+    (at 138.43 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111511 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC22)
+    (at 140.97 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111411 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC1E)
+    (at 143.51 113.03)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111311 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC12)
+    (at 130.81 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111810 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC0E)
+    (at 133.35 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111710 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC0A)
+    (at 135.89 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111610 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC06)
+    (at 138.43 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111510 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CC02)
+    (at 140.97 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111410 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBFE)
+    (at 143.51 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111310 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBFA)
+    (at 146.05 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111210 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBF6)
+    (at 148.59 115.57)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**111110 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBF2)
+    (at 130.81 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11189 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBEE)
+    (at 133.35 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11179 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBEA)
+    (at 135.89 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11169 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBE6)
+    (at 138.43 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11159 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBE2)
+    (at 140.97 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11149 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBDE)
+    (at 143.51 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11139 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBDA)
+    (at 146.05 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11129 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBD6)
+    (at 148.59 118.11)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11119 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBD2)
+    (at 130.81 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11188 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBCE)
+    (at 133.35 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11178 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBCA)
+    (at 135.89 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11168 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBC6)
+    (at 138.43 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11158 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBC2)
+    (at 140.97 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11148 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBBE)
+    (at 143.51 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11138 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBBA)
+    (at 146.05 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11128 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBB6)
+    (at 148.59 120.65)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11118 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBB2)
+    (at 130.81 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11187 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBAE)
+    (at 133.35 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11177 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBAA)
+    (at 135.89 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11167 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBA6)
+    (at 138.43 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11157 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CBA2)
+    (at 140.97 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11147 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB9E)
+    (at 143.51 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11137 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB9A)
+    (at 146.05 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11127 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB96)
+    (at 148.59 123.19)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11117 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB92)
+    (at 130.81 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11186 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB8E)
+    (at 133.35 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11176 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB8A)
+    (at 135.89 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11166 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB86)
+    (at 138.43 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11156 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB82)
+    (at 140.97 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11146 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB7E)
+    (at 143.51 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11136 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB7A)
+    (at 146.05 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11126 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB76)
+    (at 148.59 125.73)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11116 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB72)
+    (at 130.81 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11185 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB6E)
+    (at 133.35 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11175 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB6A)
+    (at 135.89 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11165 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB66)
+    (at 138.43 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11155 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB62)
+    (at 140.97 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11145 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB5E)
+    (at 143.51 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11135 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB5A)
+    (at 146.05 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11125 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB56)
+    (at 148.59 128.27)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11115 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB52)
+    (at 130.81 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11184 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB4E)
+    (at 133.35 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11174 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB4A)
+    (at 135.89 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11164 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB46)
+    (at 138.43 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11154 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB42)
+    (at 140.97 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11144 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB3E)
+    (at 143.51 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11134 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB3A)
+    (at 146.05 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11124 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB36)
+    (at 148.59 130.81)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11114 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB32)
+    (at 130.81 133.35)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11183 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB2E)
+    (at 133.35 133.35)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11173 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB2A)
+    (at 135.89 133.35)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11163 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB1E)
+    (at 143.51 133.35)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11133 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB1A)
+    (at 146.05 133.35)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11123 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB16)
+    (at 148.59 133.35)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11113 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CB0A)
+    (at 135.89 135.89)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11162 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CAFE)
+    (at 143.51 135.89)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11132 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CAFA)
+    (at 146.05 135.89)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11122 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CAF6)
+    (at 148.59 135.89)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11112 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CAEA)
+    (at 135.89 138.43)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11161 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CAE6)
+    (at 138.43 138.43)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11151 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CAE2)
+    (at 140.97 138.43)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11141 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CADE)
+    (at 143.51 138.43)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11131 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953CADA)
+    (at 146.05 138.43)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11121 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 5953BF85) (tstamp 5953BC9F)
+    (at 148.59 138.43)
+    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x01 2.54mm single row")
+    (fp_text reference REF**11111 (at 0 -2.33) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  )
+
+  (gr_text Reset (at 139.7 136.398) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_line (start 130 110) (end 130 109) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150 109) (end 150 110) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 130 110) (end 130 140) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150 109) (end 130 109) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150 140) (end 150 110) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 130 140) (end 150 140) (angle 90) (layer Edge.Cuts) (width 0.15))
+
+)
