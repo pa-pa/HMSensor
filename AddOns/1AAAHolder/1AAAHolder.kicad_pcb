@@ -3,12 +3,12 @@
   (general
     (links 3)
     (no_connects 0)
-    (area 169.088999 85.268999 203.783001 135.965001)
+    (area 169.088999 84.760999 203.783001 135.711001)
     (thickness 1.6)
-    (drawings 20)
+    (drawings 19)
     (tracks 10)
     (zones 0)
-    (modules 53)
+    (modules 52)
     (nets 14)
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -135,6 +135,21 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 592DBE53) (tstamp 595E056C)
+    (at 188.087 86.741)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (fp_text reference REF** (at -0.127 4.826) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 595C989C) (tstamp 595C9F34)
@@ -583,48 +598,6 @@
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (fp_text reference REF**3 (at 0 -2.33) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.8 -1.8) (end -1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.8 1.8) (end 1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 1.8) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  )
-
-  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 595C989C) (tstamp 595C9E2C)
-    (at 186.182 87.3125)
-    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
-    (tags "Through hole pin header THT 1x01 2.54mm single row")
-    (fp_text reference REF**2 (at 0 -2.33) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.8 -1.8) (end -1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.8 1.8) (end 1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 1.8) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  )
-
-  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 595C989C) (tstamp 595C9DCE)
-    (at 188.722 87.3125)
-    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
-    (tags "Through hole pin header THT 1x01 2.54mm single row")
-    (fp_text reference REF**1 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
@@ -1294,11 +1267,10 @@
     )
   )
 
-  (gr_line (start 169.164 85.344) (end 169.418 85.344) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 169.164 135.89) (end 203.708 135.89) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 169.164 85.344) (end 169.164 135.89) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 203.708 85.344) (end 203.708 135.89) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 169.418 85.344) (end 203.708 85.344) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 169.164 135.636) (end 169.164 84.836) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 203.708 135.636) (end 203.708 84.836) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 169.164 135.636) (end 203.708 135.636) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 169.164 84.836) (end 203.708 84.836) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text D7 (at 172.2755 118.618 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )

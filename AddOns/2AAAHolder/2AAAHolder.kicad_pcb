@@ -3,12 +3,12 @@
   (general
     (links 3)
     (no_connects 0)
-    (area 155.880999 85.268999 203.783001 135.965001)
+    (area 155.880999 84.760999 203.783001 135.711001)
     (thickness 1.6)
-    (drawings 20)
+    (drawings 19)
     (tracks 14)
     (zones 0)
-    (modules 54)
+    (modules 53)
     (nets 14)
   )
 
@@ -135,6 +135,21 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module Mounting_Holes:MountingHole_2.2mm_M2 (layer F.Cu) (tedit 592DBE53) (tstamp 595E03CA)
+    (at 188.087 86.741)
+    (descr "Mounting Hole 2.2mm, no annular, M2")
+    (tags "mounting hole 2.2mm no annular m2")
+    (fp_text reference REF** (at -0.127 4.826) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_2.2mm_M2 (at 0 3.2) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 2.2 0) (layer Cmts.User) (width 0.15))
+    (fp_circle (center 0 0) (end 2.45 0) (layer F.CrtYd) (width 0.05))
+    (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 595C989C) (tstamp 595C9F34)
@@ -583,48 +598,6 @@
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (fp_text reference REF**3 (at 0 -2.33) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.8 -1.8) (end -1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.8 1.8) (end 1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 1.8) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  )
-
-  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 595C989C) (tstamp 595C9E2C)
-    (at 186.182 87.3125)
-    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
-    (tags "Through hole pin header THT 1x01 2.54mm single row")
-    (fp_text reference REF**2 (at 0 -2.33) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -1.27 -1.27) (end -1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.27 1.27) (end 1.27 1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 1.27) (end 1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start 1.27 -1.27) (end -1.27 -1.27) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.8 -1.8) (end -1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.8 1.8) (end 1.8 1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 1.8) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  )
-
-  (module Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm (layer F.Cu) (tedit 595C989C) (tstamp 595C9DCE)
-    (at 188.722 87.3125)
-    (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
-    (tags "Through hole pin header THT 1x01 2.54mm single row")
-    (fp_text reference REF**1 (at 0 -2.33) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Pin_Header_Straight_1x01_Pitch2.54mm (at 0 2.33) (layer F.Fab) hide
@@ -1258,7 +1231,7 @@
   )
 
   (module Modules:AAA_Holder_Keystone2466 (layer F.Cu) (tedit 595C9E31) (tstamp 595C945C)
-    (at 196.9135 110.617)
+    (at 196.85 110.236)
     (fp_text reference REF** (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1294,7 +1267,7 @@
   )
 
   (module Modules:AAA_Holder_Keystone2466 (layer F.Cu) (tedit 595C9E36) (tstamp 595C94AC)
-    (at 162.7505 110.617 180)
+    (at 162.814 110.236 180)
     (fp_text reference REF** (at 0 0 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -1329,11 +1302,10 @@
     )
   )
 
-  (gr_line (start 155.956 135.89) (end 155.956 85.344) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 203.708 135.89) (end 155.956 135.89) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 203.708 85.344) (end 203.708 135.89) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 169.418 85.344) (end 203.708 85.344) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 155.956 85.344) (end 169.418 85.344) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 155.956 135.636) (end 155.956 84.836) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 203.708 84.836) (end 203.708 135.636) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 155.956 84.836) (end 203.708 84.836) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 155.956 135.636) (end 203.708 135.636) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_text D7 (at 172.2755 118.618 270) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
@@ -1381,18 +1353,18 @@
   )
 
   (segment (start 193.04 126.746) (end 196.9135 130.6195) (width 1) (layer F.Cu) (net 0))
-  (segment (start 196.9135 130.6195) (end 196.9135 132.967) (width 1) (layer F.Cu) (net 0))
+  (segment (start 196.9135 130.6195) (end 196.85 132.586) (width 1) (layer F.Cu) (net 0) (status 20))
   (segment (start 166.37 126.746) (end 193.04 126.746) (width 1) (layer F.Cu) (net 0))
   (segment (start 162.7505 130.3655) (end 166.37 126.746) (width 1) (layer F.Cu) (net 0))
-  (segment (start 162.7505 132.967) (end 162.7505 130.3655) (width 1) (layer F.Cu) (net 0))
+  (segment (start 162.814 132.586) (end 162.7505 130.3655) (width 1) (layer F.Cu) (net 0) (status 10))
   (segment (start 188.6585 116.1415) (end 182.88 116.1415) (width 1) (layer F.Cu) (net 1))
   (segment (start 170.8785 111.0615) (end 177.8 111.0615) (width 1) (layer F.Cu) (net 1))
   (segment (start 177.8 111.0615) (end 182.88 116.1415) (width 1) (layer F.Cu) (net 1))
   (segment (start 170.8785 111.0615) (end 170.8785 106.934) (width 1) (layer F.Cu) (net 1))
-  (segment (start 162.7505 88.267) (end 162.7505 98.806) (width 1) (layer F.Cu) (net 1))
+  (segment (start 162.814 87.886) (end 162.7505 98.806) (width 1) (layer F.Cu) (net 1) (status 10))
   (segment (start 162.7505 98.806) (end 170.8785 106.934) (width 1) (layer F.Cu) (net 1))
   (segment (start 188.6585 107.2515) (end 196.9135 98.9965) (width 1) (layer F.Cu) (net 10))
-  (segment (start 196.9135 98.9965) (end 196.9135 88.267) (width 1) (layer F.Cu) (net 10))
+  (segment (start 196.9135 98.9965) (end 196.85 87.886) (width 1) (layer F.Cu) (net 10) (status 20))
   (segment (start 188.6585 113.6015) (end 188.6585 107.2515) (width 1) (layer F.Cu) (net 10))
 
 )
