@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -122,8 +122,8 @@
     (pad 1 thru_hole oval (at 0 36.45) (size 4 2.4) (drill oval 2.5 1.4) (layers *.Cu *.Mask B.SilkS))
     (pad 2 thru_hole oval (at 0 -36.45) (size 4 2.5) (drill oval 2.5 1.4) (layers *.Cu *.Mask B.SilkS))
     (model ../../../../../../Users/holger/kicad/3D/batteryholder/18650-single.wrl
-      (at (xyz 1.95 0 0.06))
-      (scale (xyz 0.36 0.36 0.36))
+      (at (xyz 2.18 0 0.06))
+      (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
   )
