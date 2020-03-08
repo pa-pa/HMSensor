@@ -12,4 +12,5 @@ Extensible with [AddOn-Boards](AddOns).
 
 ![AddOn Example](files/preview3.png)
 
-Some (german) documentation is available at https://asksinpp.de/Projekte/psi/HMSensor
+* Some (german) documentation is available at https://asksinpp.de/Projekte/psi/HMSensor
+* Helper PCB for flashing: https://github.com/psi-4ward/HMSensor-FlashStation
